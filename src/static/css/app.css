@@ -1,0 +1,83 @@
+/*
+ * Globals
+ */
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure
+ */
+.cover-container {
+  max-width: 42em;
+}
+
+.bg-purple {
+  background-color: #4759e5 !important;
+}
+
+.text-purple {
+  color: #4759e5 !important;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.bg-light-purple {
+  background-color: #e7e7fa
+}
+
+.no-decor {
+  text-decoration: none;
+}
+
+.float-r {
+  float: right;
+}
+
+.no-link {
+  cursor: default;
+}
+
+.btn-outline-purple {
+  border: 1px solid #4759e5;
+  color: #4759e5;
+}
+
+.btn-outline-purple:hover {
+  border: 1px solid #4759e5;
+  background-color: #4759e5;
+  color: #fff;
+}
+
+.u-hide {
+  display: none;
+}
